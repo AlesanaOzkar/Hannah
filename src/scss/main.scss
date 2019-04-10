@@ -1,0 +1,33 @@
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap-vue/src/index.scss';
+
+
+/*Custom class bootstrap*/
+.navbar-light .navbar-toggler-icon {
+    /*background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30'  stroke='rgb(255,102,203)' xmlns='http://www.w3.org/2000…p='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    */
+
+}
+
+//Importa los estilos del login
+@import './modules/login.scss';
+//Importa los estilos del login
+@import './modules/create_button.scss';
+//Importa los estilos de la barra de navegación
+@import './modules/nav_bar.scss';
+//Importa los estilos del historial
+@import './modules/historial.scss';
+
+.pointer{
+    cursor:pointer;
+}
+.word-break{
+    word-break: break-word;
+}
+img{
+    max-width: 100%;
+}
+.sin-borde{
+    border:0;
+}

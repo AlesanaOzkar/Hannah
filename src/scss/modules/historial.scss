@@ -1,0 +1,79 @@
+$fondo: #F7f7f7;
+$blanco:#FFF;
+
+.historial{
+    .mensaje{
+        display: flex;
+        flex-direction: column;
+        .mensaje-cabecera{
+            display: flex;
+
+            .mensaje-fecha, .mensaje-texto{
+                background: $fondo;
+                padding: .5em;
+            }
+
+            .mensaje-fecha{
+                flex:1;
+                margin-right: 2px;
+            }
+            .mensaje-texto{
+                flex:3;
+            }
+        }
+        .mensaje-pie{
+            display: flex;
+            justify-content: space-between;
+
+
+            .mensaje-opciones, .mensaje-vistas, .mensaje-celular{
+                flex:1;
+                background: $fondo;
+                padding: .5em;
+            }
+
+            .mensaje-opciones{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .mensaje-celular{
+                margin-right: 2px;
+            }
+            .mensaje-vistas{
+                margin-right: 2px;
+            }
+        }
+        .texto-mensaje{
+            font-size: .9em;
+        }
+    }
+    .paginador{
+        padding: 0;
+    }
+    .filtro-fechas{
+        display: flex;
+        justify-content: space-between; 
+        .fecha-1, .fecha-2{
+            flex:1
+        }
+        input{
+            width: 100%;
+            background: #3b4d63;
+            border: solid 1px #3b4d63;
+            color:#FFF;
+        }
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: $blanco;
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: $blanco;
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: $blanco;
+      }
+}

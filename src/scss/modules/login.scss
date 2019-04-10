@@ -1,0 +1,57 @@
+
+.login{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+
+
+    .item{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    input{
+        width:70%;
+        padding: .6em 2em;
+        text-align: center;
+        border-radius: 0.1em;
+        border: #EAEAEA solid 2px;
+    }
+    $prop-shadow : 1px 1px 1px 0px rgba(134, 134, 134, 0.75);
+    input[type='submit']{
+        background: #e92652;
+        -webkit-box-shadow:  $prop-shadow ;
+        -moz-box-shadow: $prop-shadow  ;
+        box-shadow: $prop-shadow ;
+        color:#FFF;
+        text-transform: uppercase;
+    }
+
+    .item:nth-child(1){
+        margin-bottom: 1em;
+    }
+    label{
+        margin-top: 1em;
+        span{
+            border-bottom: solid 1px;
+        }
+    }
+    .login-titulo{
+        margin-top: 4em;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+}
+.bg-gradient{
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 69%, rgba(239,239,239,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(69%, rgba(239,239,239,1)), color-stop(100%, rgba(239,239,239,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 69%, rgba(239,239,239,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 69%, rgba(239,239,239,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 69%, rgba(239,239,239,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 69%, rgba(239,239,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef', GradientType=0 );
+}

@@ -1,0 +1,43 @@
+.crear_boton{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+
+    h5{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 500;
+    }
+    .form-enviar{
+        display: flex;
+        justify-content: space-between;
+    }
+    input, textarea{
+        margin-right: 1em;
+        width: 100%;
+        text-align: center;
+        border-radius: 0.1em;
+        border: #EAEAEA solid 2px;
+    }
+    .btn-guardar{
+        width: 40%;
+    }
+    .btn{
+        background: #1da08b;
+        text-transform: uppercase;
+        color:#FFF;
+        font-weight: 500;
+    }
+    .editar{
+        background: #ffffff00;
+        text-transform: uppercase;
+        padding: 0;
+        font-weight: 500;
+        border:0;
+    }
+    .editText{
+        background: #ffffff00;
+        border:0;
+        text-align: left;
+    }
+}
