@@ -7,7 +7,7 @@
 
 
                         <div class="item login-titulo">
-                            <span>Hannah</span>
+                            <img class="hannah-icon" src="../../assets/Hannah.png">
                         </div>
                         <div class="item">
                             <input type="text" v-model="user.email" autofocus>
